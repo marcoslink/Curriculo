@@ -1,0 +1,65 @@
+h1 {
+    position: relative;
+    text-align: center;
+    left: 5%;
+    overflow: auto; /* ou overflow: scroll; */
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divcentral {
+    background-color: aliceblue;
+    margin-left: 160px;
+    padding: 0px 55px;
+    max-width: 100%;
+    min-width: 600px;
+    width: 100%;
+    height: 902px;
+    overflow: auto; /* ou overflow: scroll; */
+}
+
+.divlateral {
+    background-color: #154c79;
+    height: 900px;
+    width: 240px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+p {
+    color: black;
+    text-align: left; /* posição central removida */
+    max-width: 100%;
+}
+
+h3 {
+    text-align: left;
+    padding-left: 80px;
+    font-family: "Times New Roman", Times, serif;
+    color:  #154c79;
+}
+
+b {
+    text-align: center; /* posição centralizada */
+}
+
+li {
+    color: black;
+}
+
+
+
+
