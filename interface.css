@@ -29,11 +29,11 @@ body {
 
 .divlateral {
     background-color: #154c79;
-    height: 900px;
+    height: 893px;
     width: 240px;
     position: absolute;
     z-index: 1;
-    top: 0;
+    top: -5;
     left: 0;
     overflow-x: hidden;
     padding-top: 10px;
